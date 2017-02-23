@@ -1,0 +1,44 @@
+#footer-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #ccc;
+  margin-top: rem-calc(60);
+
+  #footer {
+    @include grid-row();
+    padding: rem-calc(30) 0;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+
+// Start the footer
+// footer.full-width {
+//   background-color: #fff;
+//   border-top: 1px solid #ccc;
+//   padding-top: rem-calc(36);
+//   padding-left: rem-calc(16);
+//   padding-right: rem-calc(16);
+//   padding-bottom: rem-calc(16);
+//   p {
+//     font-size: rem-calc(14);
+//   }
+//   a {
+//     color: #666;
+//     font-size: rem-calc(15);
+//     &:hover, &:focus {
+//       color: $body-font-color;
+//     }
+//   }
+//   .love-reverie {
+//     border-top: 1px solid #ccc;
+//     padding-top: rem-calc(24);
+//   }
+// }
+
