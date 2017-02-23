@@ -11,6 +11,7 @@
 *.svg
 *.eot
 *.ico
+*.mo
 node_modules/
 assets/stylesheets/
 assets/components/
