@@ -1,0 +1,16 @@
+{
+    "name": "adaminfinitum/foundationsix",
+    "description": "FoundationSix is a minimalist WordPress theme based on FoundationPress by Ole Fredrik Lie using Foundation 6.3.0",
+    "type": "wordpress-theme",
+    "minimum-stability" : "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Powell",
+            "email": "firstname(at)abacusadvertising.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
